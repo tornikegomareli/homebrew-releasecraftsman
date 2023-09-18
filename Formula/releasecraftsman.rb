@@ -1,9 +1,9 @@
 class Releasecraftsman < Formula
   desc "CLI tool for parsing logs & generating and crafting beautiful changelog and release notes"
   homepage "https://github.com/tornikegomareli/release-craftsman"
-  url "https://github.com/tornikegomareli/release-craftsman/releases/download/1.0.0/releasecraftsman-1.0.0-x86_64-apple-darwin-tar.gz"
-  sha256 "4f3fef3c06c48e23be7c37a062a7a1198902d2d3643623d1b557bd70b2354dd3"
-  version "1.0.0"
+  url "https://github.com/tornikegomareli/release-craftsman/releases/download/1.0.1/releasecraftsman-1.0.1-x86_64-darwin.tar.gz"
+  sha256 "51fc1ec6737ea513b7447084db566a21a070643877b6f0d7d9b8ce3f8f229aaa"
+  version "1.0.1"
 
   def install
     bin.install "releasecraftsman"
